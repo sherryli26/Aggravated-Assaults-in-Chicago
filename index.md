@@ -32,6 +32,5 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sherryli26/Crime-in-Chicago/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Pew
+<a href="https://www.pewresearch.org/fact-tank/2020/11/20/facts-about-crime-in-the-u-s/ft_20-11-12_crimeintheus_5/"><img src="https://www.pewresearch.org/wp-content/uploads/2020/11/FT_20.11.12_CrimeInTheUS_5.png?w=474"></a>
