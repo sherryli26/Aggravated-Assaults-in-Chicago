@@ -27,12 +27,15 @@ Below is a plot about communities in Chicago. The color filling in each area rep
 ### Causal Relationship?
 We already noticed the correlation between vacant land and aggravated assaults. However, to make policy suggestions to reduce crime, we also want to know whether there is a causal relationship between them. After doing a regression analysis controlling several variables including total population, employment rate, race, the percent of commercial and institutional land use, commute methods and main language used, I found that the percentage of vacant land is significant. That means the percentage of vacant land does have a causal effect on aggravated assaults. This graph demonstrates the effect.
 
-![Image of causal effect](https://github.com/sherryli26/Aggravated-Assaults-in-Chicago/blob/main/images/causal_effect.PNG)
+![Image of causal effect](https://github.com/sherryli26/Aggravated-Assaults-in-Chicago/blob/main/images/causal_effect.png)
 
 ![Image of causal effect](https://github.com/sherryli26/Aggravated-Assaults-in-Chicago/images/causal_effect.png)
 
 ![Image of causal effect](../images/causal_effect.png)
-![Image of causal effect](./images/causal_effect.png)
+
+<img src="images/causal_effect.png" />
+<img src="../images/causal_effect.png" />
+<img src="./images/causal_effect.png" />
 
 ### What Should We Do?
 
