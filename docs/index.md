@@ -21,14 +21,14 @@ We can see from the plot that the numbers of all crimes in Chicago went down ove
 Researching on which factors are related with aggravated assaults helps police target crime-prone communities, enabling them to respond to crimes more efficiently, and enhance surveillance in these areas to prevent crime from happening. 
 
 ## Vacant/Underdeveloped Land
-Below is a plot about communities in Chicago. The color filling in each area represents the percentage of vacant/underdeveloped land in that community. The deeper the color is, the higher the percentage is. The purple dots tell us about the crime rate of aggravated assaults. The bigger the circles are, the higher the crime rates are. We can see there is a correlation between the color and size of dots. In areas like the West Side, South Chicago and Englewood, there are high percentage of vacant land as well as aggravated assault rate.
+Below is a plot about communities in Chicago. The color filling in each area represents the percentage of vacant/underdeveloped land in that community. The deeper the color is, the higher the percentage is. The purple dots tell us about the crime rate of aggravated assaults. The bigger the circles are, the higher the crime rates are. We can see there is a correlation between the color and size of dots. In areas like the West Side, South Chicago and Englewood, there are high percentage of vacant land as well as aggravated assault rate. On the other hand, the positive example is Near West Side, where crime rate dropped after a makeover was applied to it.
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/underdevelopedlandandaggravatedassault/VacantLand?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link&:showVizHome=no" width = '900' height = '600'></iframe> 
 
 ### Causal Relationship?
 We already noticed the correlation between vacant land and aggravated assaults. However, to make policy suggestions to reduce crime, we also want to know whether there is a causal relationship between them. After doing a regression analysis controlling several variables including total population, employment rate, race, the percent of commercial and institutional land use, commute methods and main language used, I found that the percentage of vacant land is significant. That means the percentage of vacant land does have a causal effect on aggravated assaults. This graph demonstrates the effect.
 
-<iframe width="900" height="800" frameborder="0" scrolling="no" src="//plotly.com/~juneli/6.embed"></iframe>
+<iframe width="900" height="600" frameborder="0" scrolling="no" src="//plotly.com/~juneli/6.embed"></iframe>
 
 
 ### What Should We Do?
