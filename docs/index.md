@@ -17,7 +17,7 @@ We can see from the plot that the numbers of all crimes in Chicago went down ove
 
 ![Image of causal effect](https://github.com/sherryli26/Aggravated-Assaults-in-Chicago/images/causal_effect.png)
 
-
+![Image of causal effect](images/causal_effect.png)
 
 
 
