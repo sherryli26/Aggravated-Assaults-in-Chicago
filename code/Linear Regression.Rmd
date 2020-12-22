@@ -1,0 +1,64 @@
+---
+title: "Linear Regression"
+author: "Xi Li"
+date: "5/3/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(haven)
+library(tidyverse)
+```
+
+```{r}
+data <-read.csv("Final_Data.csv")
+data$crime_rate <-data$Agg_Ass/data$TOT_POP
+```
+
+```{r}
+mod<- lm(crime_rate~EMP_rate
++White+Hisp+Black+Asian
++COMMperc+INSTperc+VACperc
++LING_ISO
++WORK_AT_HOME+CARPOOL+TRANSIT+WALK_BIKE,
+data= data)
+summary(mod)
+```
+
+```{r}
+# calculate the MSE
+mean(mod$residuals^2)
+```
+
+
+```{r}
+plot1<- ggplot(data = data,aes(x=VACperc,y=crime_rate)) + geom_point(color = "steelblue")+ geom_abline(slope = summary(mod)$coefficients[9],intercept = summary(mod)$coefficients[1]) + labs(title = "How the Percentage of Vacant/Undeveloped Land Affect Aggravated Assaults")+xlab("the Percentage of Vacant/Undeveloped Land")+ylab("Aggravated Assaults Rate")+theme_bw()
+plot1
+```
+
+
+```{r}
+# Install the latest version 
+# of the “plotly” package and load it
+
+library(devtools)
+install.packages("plotly")
+devtools::install_github("ropensci/plotly")
+library(plotly)
+
+# Open a Plotly connection
+# document: https://cran.r-project.org/web/packages/plotly/plotly.pdf
+Sys.setenv("plotly_username" = "juneli")
+Sys.setenv("plotly_api_key" = "JES2U6deIouuyffWe7TR")
+
+# dynamize static plot
+plot2 <-ggplotly(plot1,tooltip = "crime_rate")
+
+# push the graph to plotly website
+api_create(plot2, filename = "causal2", fileopt = "new", sharing = "public")
+```
+
+
+
+
