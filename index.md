@@ -16,7 +16,6 @@ We can see from the plot that the numbers of all crimes in Chicago went down ove
 
 {% include crime_rate_variation.html %}
 
-![Image of crime rate variation](https://github.com/sherryli26/Aggravated-Assaults-in-Chicago/blob/main/images/crime_rate_variation.html)
 
 
 
