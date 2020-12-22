@@ -47,4 +47,5 @@ Another guess is that, does commute methods affect aggravated assault rate? Mayb
 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/underdevelopedlandandaggravatedassault/WalkingtoWork?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link&:showVizHome=no" width = '900' height = '600'></iframe>
 
-
+## Conclusion
+There is a casual relationship between the percent of vacant/undeveloped land and the number of aggravated assaults. Also, the correlation between race and crime shows that African American communities are more subject to aggravated assaults. Some neighborhoods in Chicago are rebuilt or gentrified and have become safer, however, large amount of underdeveloped land and geographical racial segregation are still severe problems. There are three main action the government should take: First, use cost-effective methods to clean vacant lots, and build fences around them to signal they are not abandoned. Secondly, selling the land to companies or organizations for future maintaining of the land. Thirdly, The police should use geographical crime information to target crime-prone communities, so as to be able to respond to crimes more efficiently, and enhance surveillance in these areas to prevent crime from happening.
