@@ -11,14 +11,14 @@ Tableau, Plotly from Python and ggplot2 from R are used to create visualizations
 
 
 ## How Have Crime Rates Changed Overtime?
-We can see from the plot that the numbers of all crimes in Chicago went down over time. Theft is the most common crime. Among all the violent crimes, aggravated assault has the highest occurrence rate. 
+We can see from the plot that the numbers of all crimes in Chicago went down over time. Theft is the most common property crime. Among all the violent crimes, aggravated assault has the highest occurrence rate. Aggravated assault is defined as “an unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury” (FBI, 2017). In 2017, there are 810,825 cases of aggravated assault in the nation, which is 248.9 per 100,000 inhabitants. It is one of the most common type of crime in the city of Chicago. We will use aggravated assault as the subject in this project and investigate the factors associated with it.
 
 <iframe width="900" height="600" frameborder="0" scrolling="no" src="//plotly.com/~juneli/2.embed"></iframe>
 
 *Note: Double click on the crime rate legend on the right to hide a line. You can also select an area to zoom in.*
 
 ### What Are the Factors Behind Aggravated Assaults?
-Aggravated assault is defined as “an unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury” (FBI, 2017). In 2017, there are 810,825 cases of aggravated assault in the nation, which is 248.9 per 100,000 inhabitants. It is one of the most common type of crime in the city of Chicago. Researching on which factors are related with aggravated assaults helps police target crime-prone communities, enabling them to respond to crimes more efficiently, and enhance surveillance in these areas to prevent crime from happening. 
+Researching on which factors are related with aggravated assaults helps police target crime-prone communities, enabling them to respond to crimes more efficiently, and enhance surveillance in these areas to prevent crime from happening. 
 
 ## Vacant/Underdeveloped Land
 Below is a plot about communities in Chicago. The color filling in each area represents the percentage of vacant/underdeveloped land in that community. The deeper the color is, the higher the percentage is. The purple dots tell us about the crime rate of aggravated assaults. The bigger the circles are, the higher the crime rates are. We can see there is a correlation between the color and size of dots. In areas like the West Side, South Chicago and Englewood, there are high percentage of vacant land as well as aggravated assault rate.
