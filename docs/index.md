@@ -15,7 +15,7 @@ We can see from the plot that the numbers of all crimes in Chicago went down ove
 
 <iframe width="900" height="600" frameborder="0" scrolling="no" src="//plotly.com/~juneli/2.embed"></iframe>
 
-*Note: Double click on the crime rate legend on the right to hide a line. You can also select an area to zoom in. *
+*Note: Double click on the crime rate legend on the right to hide a line. You can also select an area to zoom in.*
 
 ### What Are the Factors Behind Aggravated Assaults?
 Aggravated assault is defined as “an unlawful attack by one person upon another for the purpose of inflicting severe or aggravated bodily injury” (FBI, 2017). In 2017, there are 810,825 cases of aggravated assault in the nation, which is 248.9 per 100,000 inhabitants. It is one of the most common type of crime in the city of Chicago. Researching on which factors are related with aggravated assaults helps police target crime-prone communities, enabling them to respond to crimes more efficiently, and enhance surveillance in these areas to prevent crime from happening. 
