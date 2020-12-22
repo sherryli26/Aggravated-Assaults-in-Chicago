@@ -14,7 +14,7 @@ Tableau, Plotly from Python and ggplot2 from R are used to create visualizations
 We can see from the plot that the numbers of all crimes in Chicago went down over time. Theft is the most common crime. Among all the violent crimes, aggravated assault has the highest occurrence rate. 
 
 
-{% include crime_rate_variation.html %}
+
 
 
 
