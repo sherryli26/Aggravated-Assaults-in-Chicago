@@ -1,5 +1,5 @@
-### Xi Li
-### December, 2020
+### *Xi Li*
+### *December, 2020*
 
 
 What is the crime situation in different communities of Chicago and what are the factors behind the geospatial differences of crime rates? This project aims to let the audience know more about the crimes, aggravated assaults in particular, happening in communities of Chicago and the factors that are correlated with the discrepancy of crime rates. That not only enables people to have a better understanding of the crimes of Chicago, but also provides some insights for crime reduction.
@@ -13,6 +13,7 @@ Tableau, Plotly from Python and ggplot2 from R are used to create visualizations
 ## How Have Crime Rates Changed Overtime?
 We can see from the plot that the numbers of all crimes in Chicago went down over time. Theft is the most common crime. Among all the violent crimes, aggravated assault has the highest occurrence rate. 
 
+{% include crime_rate_variation.html %}
 
 *Note: Double click on the crime rate legend on the right to hide a line. You can also select an area to zoom in. *
 
