@@ -13,7 +13,7 @@ Tableau, Plotly from Python and ggplot2 from R are used to create visualizations
 ## How Have Crime Rates Changed Overtime?
 We can see from the plot that the numbers of all crimes in Chicago went down over time. Theft is the most common crime. Among all the violent crimes, aggravated assault has the highest occurrence rate. 
 
-{% include crime_rate_variation.html %}
+{% include_crime_rate_variation.html}
 
 *Note: Double click on the crime rate legend on the right to hide a line. You can also select an area to zoom in. *
 
