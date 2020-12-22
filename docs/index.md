@@ -20,5 +20,5 @@ We can see from the plot that the numbers of all crimes in Chicago went down ove
 ![Image of causal effect](/images/causal_effect.PNG)
 
 
-<iframe seamless frameborder="0" src="https://public.tableau.com/views/underdevelopedlandandaggravatedassault/VacantLand?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link&:showVizHome=no" width = '650' height = '450'></iframe> 
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/underdevelopedlandandaggravatedassault/VacantLand?:language=zh-Hans&:display_count=y&publish=yes&:origin=viz_share_link&:showVizHome=no" width = '900' height = '600'></iframe> 
 <iframe seamless frameborder="0" src="https://public.tableau.com/views/GTSRB_Result_Viz/GTSRB?:embed=yes&:display_count=yes&:showVizHome=no" width = '650' height = '450'></iframe> 
